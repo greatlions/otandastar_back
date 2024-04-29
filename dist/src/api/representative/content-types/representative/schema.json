@@ -1,0 +1,43 @@
+{
+    "kind": "collectionType",
+    "collectionName": "representatives",
+    "info": {
+        "singularName": "representative",
+        "pluralName": "representatives",
+        "displayName": "Representative",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "avatar": {
+            "type": "string"
+        },
+        "dateOfBirth": {
+            "type": "date"
+        },
+        "name": {
+            "type": "string"
+        },
+        "biography": {
+            "type": "text"
+        },
+        "position": {
+            "type": "string"
+        },
+        "instagram": {
+            "type": "string"
+        },
+        "telegram": {
+            "type": "string"
+        },
+        "twitter": {
+            "type": "string"
+        },
+        "facebook": {
+            "type": "string"
+        }
+    }
+}
